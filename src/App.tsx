@@ -4,15 +4,15 @@ import './index.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { AppRoutes } from './routes';
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
 function App() {
   return (
     <div style={{padding:0 , margin: 0, overflowX:'hidden'}} className="w-screen h-screen">
         <Header/>
-        <BrowserRouter>
+        <HashRouter>
             <AppRoutes />
-        </BrowserRouter>
+        </HashRouter>
         <Footer/>
     </div>
   )
