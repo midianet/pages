@@ -11,7 +11,7 @@ export const AppRoutes = () =>  {
         <Route path={Environment.HOME_MENU} element={<Home/>}/>
         <Route path={Environment.QUEMSOMOS_MENU} element={<Quemsomos/>}/>
         <Route path={Environment.EVENTOS_MENU} element={<Eventos/>}/>
-        <Route path="*" element={<Navigate to={'/home'} />} />
+        <Route path="*" element={<Navigate to={Environment.HOME_MENU} />} />
   </Routes>
   )
 }
