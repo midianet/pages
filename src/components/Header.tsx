@@ -30,9 +30,9 @@ const Header: React.FC = () => {
                     */}
                     <div className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                            <li><MenuItem link={Environment.HOME_MENU} title="Home" /></li>
-                            <li><MenuItem link={Environment.QUEMSOMOS_MENU} title="Quem somos" /></li>
-                            <li><MenuItem link={Environment.EVENTOS_MENU} title="Eventos" /></li>
+                            <li><MenuItem link="/pages/#/home" title="Home" /></li>
+                            <li><MenuItem link="/pages/#/quemsomos" title="Quem somos" /></li>
+                            <li><MenuItem link="/pages/#/eventos" title="Eventos" /></li>
                             <li><MenuItem link="#" title="Artigos" /></li>
                             <li><MenuItem link="#" title="Membros" /></li>
                             <li><MenuItem link="#" title="Contato" /></li>
