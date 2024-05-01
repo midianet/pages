@@ -18,7 +18,7 @@ export type CarouselProps = {
     }, [])
 
     return (
-        <div className="overflow-hidden relative rounded-md border-1 shadow-lg border-zinc-700 w-[450px] h-[320px]">
+        <div className="overflow-hidden relative rounded-md border-1 shadow-lg border-zinc-700 w-[450px] h-[320px] max-w-[390px]">
             <div className='flex transition-transform ease-out duration-500' style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {children}
             </div>
